@@ -1,0 +1,3 @@
+1.springboot 在项目启动时会扫描项目所依赖的的JAR包，寻找包含spring.factories文件的JAR包
+2.根据srping.factories配置加载autoconfig类
+3.根据@conditional注解的条件，进行自动配置并将bean注入spring context
